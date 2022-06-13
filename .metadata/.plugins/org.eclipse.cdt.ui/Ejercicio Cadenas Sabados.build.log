@@ -1,0 +1,7 @@
+10:03:29 **** Incremental Build of configuration Debug for project Ejercicio Cadenas Sabados ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio Cadenas Sabados.o" "..\\src\\Ejercicio Cadenas Sabados.cpp" 
+g++ -o "Ejercicio Cadenas Sabados.exe" "src\\Ejercicio Cadenas Sabados.o" 
+
+10:03:30 Build Finished. 0 errors, 0 warnings. (took 498ms)
+

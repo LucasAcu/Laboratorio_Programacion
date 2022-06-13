@@ -1,0 +1,7 @@
+23:30:21 **** Incremental Build of configuration Debug for project clase 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Arrays paralelos.o" "..\\src\\Arrays paralelos.c" 
+gcc -o "clase 2.exe" "src\\Arrays paralelos.o" 
+
+23:30:21 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

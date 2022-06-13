@@ -1,0 +1,23 @@
+17:19:53 **** Rebuild of configuration Debug for project Ejercicio 4.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 4.1.o" "..\\src\\Ejercicio 4.1.c" 
+..\src\Ejercicio 4.1.c: In function 'CalcularMaximo':
+..\src\Ejercicio 4.1.c:34:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d", num1);
+           ^
+..\src\Ejercicio 4.1.c:36:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d", num2);
+           ^
+..\src\Ejercicio 4.1.c:31:6: warning: unused variable 'resultSuma' [-Wunused-variable]
+  int resultSuma=8;
+      ^~~~~~~~~~
+..\src\Ejercicio 4.1.c:34:3: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   scanf("%d", num1);
+   ^~~~~~~~~~~~~~~~~
+..\src\Ejercicio 4.1.c:36:3: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   scanf("%d", num2);
+   ^~~~~~~~~~~~~~~~~
+gcc -o "Ejercicio 4.1.exe" "src\\Ejercicio 4.1.o" 
+
+17:19:53 Build Finished. 0 errors, 5 warnings. (took 353ms)
+

@@ -1,0 +1,31 @@
+17:19:55 **** Incremental Build of configuration Debug for project Trabajo practico ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo practico.o" "..\\src\\Trabajo practico.c" 
+..\src\Trabajo practico.c: In function 'main':
+..\src\Trabajo practico.c:25:15: warning: implicit declaration of function 'utn_getNumero' [-Wimplicit-function-declaration]
+   respuesta = utn_getNumero(&menu,"1.Ingresar kilometros.\n 2.ingresar precio de vuelos. \n 3.Calcular costos.\n 4.Informar resultados.\n 5.Carga forzada de datos.\n 8.Salir.\n");
+               ^~~~~~~~~~~~~
+..\src\Trabajo practico.c:29:16: warning: implicit declaration of function 'ingresarkms' [-Wimplicit-function-declaration]
+     retornouno=ingresarkms(&kms);
+                ^~~~~~~~~~~
+..\src\Trabajo practico.c:33:17: warning: implicit declaration of function 'preciosvuelos' [-Wimplicit-function-declaration]
+      retornodos=preciosvuelos(preciouno,preciodos);
+                 ^~~~~~~~~~~~~
+..\src\Trabajo practico.c:38:5: warning: implicit declaration of function 'debitoaerolineas' [-Wimplicit-function-declaration]
+     debitoaerolineas(preciouno,preciodos);
+     ^~~~~~~~~~~~~~~~
+..\src\Trabajo practico.c:50:2: error: expected 'while' before '}' token
+  }while(menu == 6)
+  ^
+..\src\Trabajo practico.c:20:6: warning: variable 'retornodos' set but not used [-Wunused-but-set-variable]
+  int retornodos;
+      ^~~~~~~~~~
+..\src\Trabajo practico.c: In function 'calculoDebito':
+..\src\Trabajo practico.c:57:5: warning: type of 'km' defaults to 'int' [-Wimplicit-int]
+ int calculoDebito(km,precio1,precio2)
+     ^~~~~~~~~~~~~
+..\src\Trabajo practico.c:57:5: warning: type of 'precio1' defaults to 'int' [-Wimplicit-int]
+..\src\Trabajo practico.c:57:5: warning: type of 'precio2' defaults to 'int' [-Wimplicit-int]
+
+17:19:55 Build Failed. 1 errors, 8 warnings. (took 100ms)
+

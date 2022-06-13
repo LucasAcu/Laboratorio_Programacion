@@ -1,0 +1,13 @@
+11:35:36 **** Incremental Build of configuration Debug for project Ejercicio 3-6 Sabados ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 3-6 Sabados.o" "..\\src\\Ejercicio 3-6 Sabados.c" 
+..\src\Ejercicio 3-6 Sabados.c: In function 'main':
+..\src\Ejercicio 3-6 Sabados.c:25:8: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len = strlen(caracter);
+        ^~~~~~
+..\src\Ejercicio 3-6 Sabados.c:25:8: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Ejercicio 3-6 Sabados.c:25:8: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o "Ejercicio 3-6 Sabados.exe" "src\\Ejercicio 3-6 Sabados.o" 
+
+11:35:36 Build Finished. 0 errors, 2 warnings. (took 292ms)
+

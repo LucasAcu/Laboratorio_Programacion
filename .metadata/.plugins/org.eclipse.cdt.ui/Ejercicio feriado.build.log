@@ -1,0 +1,23 @@
+17:19:53 **** Rebuild of configuration Debug for project Ejercicio feriado ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio feriado.o" "..\\src\\Ejercicio feriado.c" 
+..\src\Ejercicio feriado.c: In function 'CalcularMaximo':
+..\src\Ejercicio feriado.c:34:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d", num1);
+           ^
+..\src\Ejercicio feriado.c:36:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d", num2);
+           ^
+..\src\Ejercicio feriado.c:31:6: warning: unused variable 'resultSuma' [-Wunused-variable]
+  int resultSuma=8;
+      ^~~~~~~~~~
+..\src\Ejercicio feriado.c:34:3: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   scanf("%d", num1);
+   ^~~~~~~~~~~~~~~~~
+..\src\Ejercicio feriado.c:36:3: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   scanf("%d", num2);
+   ^~~~~~~~~~~~~~~~~
+gcc -o "Ejercicio feriado.exe" "src\\Ejercicio feriado.o" 
+
+17:19:54 Build Finished. 0 errors, 5 warnings. (took 318ms)
+

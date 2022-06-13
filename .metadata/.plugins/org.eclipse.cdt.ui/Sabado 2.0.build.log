@@ -1,0 +1,17 @@
+17:19:54 **** Rebuild of configuration Debug for project Sabado 2.0 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sabado 2.0.o" "..\\src\\Sabado 2.0.c" 
+..\src\Sabado 2.0.c: In function 'main':
+..\src\Sabado 2.0.c:17:12: warning: implicit declaration of function 'CalcularPromedio' [-Wimplicit-function-declaration]
+  promedio= CalcularPromedio(5,9);//parametros actuales
+            ^~~~~~~~~~~~~~~~
+..\src\Sabado 2.0.c: At top level:
+..\src\Sabado 2.0.c:23:7: error: conflicting types for 'CalcularPromedio'
+ float CalcularPromedio(int numero1, int numero2)//parametros formales
+       ^~~~~~~~~~~~~~~~
+..\src\Sabado 2.0.c:17:12: note: previous implicit declaration of 'CalcularPromedio' was here
+  promedio= CalcularPromedio(5,9);//parametros actuales
+            ^~~~~~~~~~~~~~~~
+
+17:19:54 Build Failed. 1 errors, 1 warnings. (took 176ms)
+

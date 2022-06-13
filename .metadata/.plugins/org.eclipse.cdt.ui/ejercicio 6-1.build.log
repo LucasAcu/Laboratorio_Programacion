@@ -1,0 +1,28 @@
+14:33:09 **** Rebuild of configuration Debug for project ejercicio 6-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio 6-1.o" "..\\src\\ejercicio 6-1.c" 
+..\src\ejercicio 6-1.c: In function 'main':
+..\src\ejercicio 6-1.c:19:32: error: expected ']' before numeric constant
+  int arrayEdades[QTY_EMPLEADOS 5]= {54,26,93,17,77,31,44,55,27};
+                                ^
+..\src\ejercicio 6-1.c:20:16: error: 'arrayEdades' undeclared (first use in this function)
+  printArrayInt(arrayEdades,QTY_EMPLEADOS);
+                ^~~~~~~~~~~
+..\src\ejercicio 6-1.c:20:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\ejercicio 6-1.c: In function 'printArrayInt':
+..\src\ejercicio 6-1.c:27:2: error: expected ',' or ';' before 'int'
+  int i;
+  ^~~
+..\src\ejercicio 6-1.c:31:7: error: 'i' undeclared (first use in this function)
+   for(i=0;i<limite;i´++)
+       ^
+..\src\ejercicio 6-1.c:31:21: error: stray '\264' in program
+   for(i=0;i<limite;i´++)
+                     ^
+..\src\ejercicio 6-1.c: At top level:
+..\src\ejercicio 6-1.c:38:1: error: expected identifier or '(' before '[' token
+ []
+ ^
+
+14:33:09 Build Failed. 6 errors, 0 warnings. (took 159ms)
+

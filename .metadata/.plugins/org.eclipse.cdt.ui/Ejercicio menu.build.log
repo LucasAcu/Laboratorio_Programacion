@@ -1,0 +1,14 @@
+17:19:54 **** Rebuild of configuration Debug for project Ejercicio menu ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio menu.o" "..\\src\\Ejercicio menu.c" 
+..\src\Ejercicio menu.c: In function 'main':
+..\src\Ejercicio menu.c:18:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int utn.getNumero;
+         ^
+..\src\Ejercicio menu.c:18:9: error: expected expression before '.' token
+..\src\Ejercicio menu.c:21:15: warning: implicit declaration of function 'utn_getNumero' [-Wimplicit-function-declaration]
+   respuesta = utn_getNumero(&opcion, "Seleccione una opcion\n\n1.Para leer\n2-Mostrar\n3-Salir\n, No es una opcion valida\n",1,2,3);
+               ^~~~~~~~~~~~~
+
+17:19:54 Build Failed. 2 errors, 1 warnings. (took 102ms)
+

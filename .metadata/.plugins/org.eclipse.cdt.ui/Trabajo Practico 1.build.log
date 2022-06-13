@@ -1,0 +1,45 @@
+17:19:55 **** Rebuild of configuration Debug for project Trabajo Practico 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo Practico 1.o" "..\\src\\Trabajo Practico 1.c" 
+..\src\Trabajo Practico 1.c: In function 'main':
+..\src\Trabajo Practico 1.c:44:11: warning: zero-length ms_scanf format string [-Wformat-zero-length]
+     scanf("");
+           ^~
+..\src\Trabajo Practico 1.c: In function 'moo':
+..\src\Trabajo Practico 1.c:79:8: warning: unused variable 'difPrecioLatamAerolineas' [-Wunused-variable]
+  float difPrecioLatamAerolineas;
+        ^~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Trabajo Practico 1.c:78:8: warning: unused variable 'precioKmUnitario' [-Wunused-variable]
+  float precioKmUnitario;
+        ^~~~~~~~~~~~~~~~
+..\src\Trabajo Practico 1.c:77:8: warning: unused variable 'bitcoin' [-Wunused-variable]
+  float bitcoin;
+        ^~~~~~~
+..\src\Trabajo Practico 1.c:76:8: warning: unused variable 'targetaCredito' [-Wunused-variable]
+  float targetaCredito;
+        ^~~~~~~~~~~~~~
+..\src\Trabajo Practico 1.c:75:8: warning: unused variable 'targetaDebito' [-Wunused-variable]
+  float targetaDebito;
+        ^~~~~~~~~~~~~
+..\src\Trabajo Practico 1.c:74:8: warning: unused variable 'precioLatam' [-Wunused-variable]
+  float precioLatam;
+        ^~~~~~~~~~~
+..\src\Trabajo Practico 1.c:73:8: warning: unused variable 'precioAerolineas' [-Wunused-variable]
+  float precioAerolineas;
+        ^~~~~~~~~~~~~~~~
+..\src\Trabajo Practico 1.c:72:8: warning: unused variable 'precios' [-Wunused-variable]
+  float precios;
+        ^~~~~~~
+..\src\Trabajo Practico 1.c:71:6: warning: unused variable 'kilometros' [-Wunused-variable]
+  int kilometros;
+      ^~~~~~~~~~
+..\src\Trabajo Practico 1.c:70:7: warning: unused variable 'aeroilineasArgentinas' [-Wunused-variable]
+  char aeroilineasArgentinas;
+       ^~~~~~~~~~~~~~~~~~~~~
+..\src\Trabajo Practico 1.c:69:7: warning: unused variable 'latam' [-Wunused-variable]
+  char latam;
+       ^~~~~
+gcc -o "Trabajo Practico 1.exe" "src\\Trabajo Practico 1.o" 
+
+17:19:55 Build Finished. 0 errors, 12 warnings. (took 296ms)
+

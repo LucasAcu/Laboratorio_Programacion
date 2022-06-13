@@ -1,0 +1,27 @@
+12:21:31 **** Incremental Build of configuration Debug for project Ejercicio 8.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 8.1.o" "..\\src\\Ejercicio 8.1.c" 
+..\src\Ejercicio 8.1.c:7:1: warning: data definition has no type or storage class
+ retorno;
+ ^~~~~~~
+..\src\Ejercicio 8.1.c:7:1: warning: type defaults to 'int' in declaration of 'retorno' [-Wimplicit-int]
+..\src\Ejercicio 8.1.c: In function 'suma':
+..\src\Ejercicio 8.1.c:25:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  pResultado = numero1 + numero2;
+             ^
+..\src\Ejercicio 8.1.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Ejercicio 8.1.exe" "src\\Ejercicio 8.1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejercicio 8.1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:21:39 **** Incremental Build of configuration Debug for project Ejercicio 8.1 ****
+Info: Internal Builder is used for build
+gcc -o "Ejercicio 8.1.exe" "src\\Ejercicio 8.1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejercicio 8.1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:28:14 **** Incremental Build of configuration Debug for project Ejercicio 8.1 ****
+Info: Internal Builder is used for build
+gcc -o "Ejercicio 8.1.exe" "src\\Ejercicio 8.1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejercicio 8.1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
